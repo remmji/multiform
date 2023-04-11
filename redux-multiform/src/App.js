@@ -3,7 +3,7 @@ import GlobalStyle from './globalStyles';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme } from './components/Themes';
 import { Routes,Route } from 'react-router-dom';
-
+import Main from './components/Main'
 function App() {
   return (
 <>
