@@ -3,7 +3,8 @@ import GlobalStyle from './globalStyles';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme } from './components/Themes';
 import { Routes,Route } from 'react-router-dom';
-import Main from './components/Main'
+import FirstForm from './FirstForm';
+
 function App() {
   return (
 <>
@@ -11,7 +12,7 @@ function App() {
 
 <ThemeProvider theme={lightTheme}>
  <Routes>
-        <Route path="/" element={ <Main/> } />
+        <Route path="/" element={ <FirstForm/> } />
  </Routes>
 </ThemeProvider>
 </>
