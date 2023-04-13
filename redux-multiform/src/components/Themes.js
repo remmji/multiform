@@ -12,8 +12,3 @@ export const lightTheme = {
     Alabaster: 'hsl(231, 100%, 99%)',
     White: 'hsl(0, 0%, 100%)',
 }
-
-export const darkTheme = {
-    body: 'darkgrey',
-    text:'white',
-}
